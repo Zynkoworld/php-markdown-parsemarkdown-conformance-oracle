@@ -1,0 +1,16 @@
+{"input": "This will be a paragraph", "expect": "<p>This will be a paragraph</p>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "_This will be italic_", "expect": "<p><em>This will be italic</em></p>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "__This will be bold__", "expect": "<p><strong>This will be bold</strong></p>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "This will _be_ __mixed__", "expect": "<p>This will <em>be</em> <strong>mixed</strong></p>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "# This will be an h1", "expect": "<h1>This will be an h1</h1>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "## This will be an h2", "expect": "<h2>This will be an h2</h2>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "### This will be an h3", "expect": "<h3>This will be an h3</h3>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "#### This will be an h4", "expect": "<h4>This will be an h4</h4>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "##### This will be an h5", "expect": "<h5>This will be an h5</h5>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "###### This will be an h6", "expect": "<h6>This will be an h6</h6>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "####### This will not be an h7", "expect": "<p>####### This will not be an h7</p>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "* Item 1\n* Item 2", "expect": "<ul><li>Item 1</li><li>Item 2</li></ul>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "# Header!\n* __Bold Item__\n* _Italic Item_", "expect": "<h1>Header!</h1><ul><li><strong>Bold Item</strong></li><li><em>Italic Item</em></li></ul>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "# This is a header with # and * in the text", "expect": "<h1>This is a header with # and * in the text</h1>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "* Item 1 with a # in the text\n* Item 2 with * in the text", "expect": "<ul><li>Item 1 with a # in the text</li><li>Item 2 with * in the text</li></ul>", "raised": false, "task": "markdown", "lang": "php"}
+{"input": "This is a paragraph with # and * in the text", "expect": "<p>This is a paragraph with # and * in the text</p>", "raised": false, "task": "markdown", "lang": "php"}
